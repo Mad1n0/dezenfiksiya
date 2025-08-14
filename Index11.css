@@ -1,0 +1,320 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar styles*/
+.navbar{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    border: 1px ;
+    margin: 0 auto;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    font-family:"Unbounded", sans-serif ;
+}
+.link{
+text-decoration: none;
+font-size: 16px;
+line-height: 16px;
+color: #666666;
+}
+.btn{
+    background-color: #3360FF;
+    border: none;
+    padding: 6px 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+/*hero styles*/
+.hero{
+    padding: 40px 0;
+}
+.hero_boxes{
+    width: 100%;
+    display: flex;
+    
+}
+.hero_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../image_2025-07-10_10-36-05.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center right;
+}
+.hero_title{
+    width: 50%;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    color: #3360FF;
+    margin-bottom: 20px;
+    font-family: "Unbounded", sans-serif;
+    
+}
+.image{
+    background-position: center right;
+}
+.hero_des{
+    font-size: 16px;
+    line-height: 24px;
+    color: #676D83;
+width: 50%;
+padding-bottom: 250px;
+}
+.button{
+    display: flex;
+    column-gap: 7px;
+
+}
+.bitn{
+    background-color: #3360FF;
+    border: none;
+    padding: 8px 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.bitin{
+    padding: 8px 20px;
+    border: 1px solid #cccccc;
+    background: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.hero_right{
+    width: 50%;
+}
+.hero_right img{
+    width: 100%;
+    object-fit: cover;
+}
+/* benefits boxes style*/
+.benefits{
+   width: 100px;
+   padding: 30px 0;
+}
+.benefits_boxes{
+    padding-left: 70px;
+    marging-bottom: 40px;
+}
+.benefits_title{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #020C31;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+.benefits_contents{
+    display: flex;
+    gap: 40px;
+    
+}
+.content_des{
+   width: 320px;
+   gap: 20px;
+   color: #676D83;
+   font-family:"Unbounded", sans-serif ;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+.content_title{
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #020C31;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+ .fa{
+  text-align: left;
+  margin-top: 20px;
+  color: #0A0A23;
+}
+.FAq{
+  display: flex;
+  flex-wrap: wrap;
+}
+.subtitle {
+  
+  color: #777;
+  margin-bottom: 20px;
+  padding-left: 70px;
+}
+.sr{
+    padding-left: 70px;
+    font-family:"Unbounded", sans-serif ;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #dce4ec;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+
+}
+.crd{
+    font-family:"Unbounded", sans-serif ;
+}
+
+.desc1 {
+  color: #28227a;
+  font-size: 14px;
+  margin: 5px 0;
+  padding-top: 10px;
+  font-family:"Unbounded", sans-serif ;
+}
+.desc2 {
+  color: #00A1D6;
+  font-size: 14px;
+  margin: 5px 0;
+  padding-top: 40px;
+  font-family:"Unbounded", sans-serif ;
+}
+.desc3 {
+  color: #095837;
+  font-size: 14px;
+  margin: 5px 0;
+  padding-top: 40px;
+  font-family:"Unbounded", sans-serif ;
+}
+.sp1{
+    font-family:"Unbounded", sans-serif ;
+    color:#28227a ;
+}
+.sp2{
+     color: #00A1D6;
+     font-family:"Unbounded", sans-serif ;
+}
+.sp3{
+    color:#095837;
+    font-family:"Unbounded", sans-serif ;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #02a4ff, #4d9fff);
+  border-radius: 12px;
+  margin: 40px 20px;
+  padding: 20px;
+  color: white;
+}
+
+.banner img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.banner .text {
+  max-width: 60%;
+}
+.sutitle{
+ text-align: center;
+}
+
+.banner button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  color: #0072ff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.faq {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+
+}
+.fa{
+  font-family:"Unbounded", sans-serif ;
+}
+.faq details {
+  margin-bottom: 10px;
+}
+
+.faq summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+.FAq{
+   padding-left: 100px;
+   
+}
+.fq{
+  gap: 15px;
+  padding-top: -20px;
+}
+
+.footer {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.footer button {
+  margin: 10px;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sectn{
+  width: 250px;
+  height: 200px;
+  background-color: rgba(245, 245, 245, 0.897);
+  padding: 20px 20px;
+  border: 5px solid white;
+  border-radius: 7px;
+}
+.tx{
+padding: 10px 0px;
+}
